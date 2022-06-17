@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <title>Shop</title>
+    </header>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a site about beaches">
+        <title>Purchase and Donate</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="Images\favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images\favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images\favicon/favicon-16x16.png">
+        <link rel="manifest" href="Images\favicon/site.webmanifest">
+        <link rel="mask-icon" href="Images\favicon/safari-pinned-tab.svg" color="#b6cbd1">
+        <link rel="shortcut icon" href="Images\favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-config" content="Images\favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">        
+    </head>
+    <body id="purchase">
+        <div id="maindiv">
+            <nav id="mainNav">
+                <ul>
+                    <li><a class="active" href="Index.html">Home</a></li>
+                    <li><a href="2.Wildlife.html">Wildlife</a></li>
+                    <li><a href="3.Beaches.html">Beaches</a></li>
+                    <li><a href="4.Activities.html">Activities</a></li>
+                    <li><a href="5.Heritage Locations 1.html">Heritage Locations 1</a></li>
+                    <li><a href="6.Heritage Locations 2.html">Heritage Locations 2</a></li>
+                    <li><a href="7.Purchase and Donate.html">Purchase and Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h1 id="heading-purchases">Featured products</h1>
+        </div>
+        <!--<style>
+            #heading-purcahses{
+                text-align: center;
+            }
+
+            #purchase{
+                background-color:rgb(181, 245, 240);
+            }
+            
+            #flexbox-container-purchase-1{
+                /*border:black 2px solid;*/
+                display: flex;
+                margin: 5px;
+                flex-direction: row;
+                flex-wrap:wrap;
+            }
+            .flex-purchase{
+                margin: 3PX;
+            }
+            .flex-purchase-1{
+                flex:25%;
+
+            }
+            .flex-purchase-2{
+                flex:25%;
+                
+            }
+            .flex-purchase-3{
+                flex:25%;
+                
+            }
+            .flex-purchase-4{
+                flex:25%;
+                
+            }
+            .flex-purchase-5{
+                flex:25%;
+                
+            }
+
+            .flex-purchase-6{
+                flex:25%;
+                
+            }
+            .flex-purchase-7{
+                flex:25%;
+
+            }
+            .flex-purchase-8{
+                flex:25%;
+
+            }
+           /*
+            #flexbox-container-purchase-2{
+                border:black 2px solid;
+                display: flex;
+                margin: 10px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            .flex-purchase-5{
+                flex:25%;
+                
+            }
+
+            .flex-purchase-6{
+                flex:25%;
+                
+            }
+            .flex-purchase-7{
+                flex:25%;
+
+            }
+            .flex-purchase-8{
+                flex:25%;
+
+            }
+*/
+
+        #flexbox-container-donations{
+               /*border:black 2px solid;*/
+                display: flex;
+                margin: 5px;
+                flex-direction: row;
+                flex-wrap:wrap;
+
+        }
+
+        .flex-donation-1{
+            flex:50%;
+        }
+        .flex-donation-2{
+            /*display:flex;
+            flex-direction: column;
+            justify-items: center;*/
+            flex:50%;
+
+        }
+
+        .ornament{
+            height: 250px;
+            width: 250px;
+    
+    }
+        h2{
+            font-size: 16px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #heading-donate{
+           font-size: 24px;
+        }
+        #heading-gift{
+            font-size: 24px;
+            margin:10px
+        }
+
+        #para-gift{
+            margin:10px;
+        }
+
+        .p-donate{
+            width:450px;
+            margin:5px;
+        }
+
+        
+
+
+        #add{
+        color:rgb(5, 5, 5);
+        background-color:white;
+        border-radius:25px;
+        width:auto;
+        height:40px;
+        border-color:rgb(16, 166, 192);
+        border:solid;
+        font-weight:bold;
+        font-size:16px;
+        border-width:thin;
+        transition: opacity 0.4s,color 1s;
+        }
+
+        #add:hover{
+            /*opacity:0.7;
+            box-shadow:1px 1px 2px rgba(0,0,0,0.15);*/
+            color:rgb(17, 247, 247);
+            transition:0.8s;
+        }
+
+        .donate-wildlife{
+            width:450px;
+            height:300px;
+        }
+
+        #bottomNav-purchases{
+            /*background:rgb(116, 119, 168); opacity:80%;*/
+            background:rgb(89, 126, 138); opacity:80%;
+            border: 2px solid black;
+            padding:1em;
+            margin:5px;
+            color:rgb(241, 12, 12);
+            
+        }
+        #bottomNav-purchases ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 30px;
+        overflow: hidden;
+        background-color: rgb(170, 183, 184);
+        word-spacing: auto;
+        }
+
+        #bottomNav-purchases a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 5px 100px;
+        text-decoration: none;
+        }
+
+        #bottomNav-purchases li a:hover {
+        /*background-color: #111;*/
+        color:black;
+        transition:0.8s;
+        /*text-decoration-color: #ff652f;*/
+        }
+        </style>-->
+        
+        
+        <div id="flexbox-container-purchase-1">
+
+            <div class="flex-purchase-1">
+                <img class="ornament" src="Images\brass bowl.webp">
+                <h2 id="purchase-items">Brass Elephant Bowl</h2>
+                <p id="items-price">Rs7,200.00</p>
+                <button id="add">
+                   Add To Cart <i class="fa fa-shopping-cart" style="font-size:20px"></i>
+                </button>
+            </div>
+
+            <div class="flex-purchase-2">
+                <img class="ornament" src="Images\Lacquered Jewellery Box.webp">
+                <h2 id="purchase-items">Lacqured Jewellery box</h2>
+                <p id="items-price">Rs6,942.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+               
+            </div>
+
+            <div class="flex-purchase-3">
+                <img class="ornament" src="Images\Brass Lamp.webp">
+                <h2 id="purchase-items">Brass Handing Lamp</h2>
+                <p id="items-price">Rs2,720.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+
+            </div>
+
+            <div class="flex-purchase-4">
+                <img class="ornament" src="Images\Brass Gonge.webp">
+                <h2 id="purchase-items">Brass Gong</h2>
+                <p id="items-price">Rs6,942.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+            </div>
+
+            <div class="flex-purchase-5">
+                <img class="ornament" src="Images\Naga Raksha Mask.webp">
+                <h2 id="purchase-items">Traditional Mask (Naga Raksha)</h2>
+                <p id="items-price">Rs15,200.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+            </div>
+
+            <div class="flex-purchase-6">
+                <img class="ornament" src="Images\orn elephant.webp">
+                <h2 id="purchase-items">Wooden Mahogany Elephant</h2>
+                <p id="items-price">Rs3,580.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+
+            </div>
+
+            <div class="flex-purchase-7">
+                <img class="ornament" src="Images\Wooden Jewelery box.webp">
+                <h2 id="purchase-items">Wooden Jewelry Box</h2>
+                <p id="items-price">Rs6,900.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+            </div>
+
+            <div class="flex-purchase-8">
+                <img class="ornament" src="Images\Bowl.webp">
+                <h2 id="purchase-items"> Mahogany Wooden Bowl</h2>
+                <p id="items-price">Rs1,200.00</p>
+                <button id="add">Add To Cart<i class="fa fa-shopping-cart" style="font-size:20px"></i></button>
+            </div>
+
+        </div><br><br>
+        <div id="flexbox container">
+            <h1 id="heading-gift">YOUR GIFT MAKES THE DIFFERENCE. </h1>
+            <p id="para-gift">Today, the enemies we are up against are highly trained, dangerous, and often desperate. They continue to infiltrate vulnerable lands, Killing elephants and Blue Whales for their valuable horns and meat.<br> These animals are on the true brink of extinction, but it is teams like the ones YOU are supporting on the ground in  Sri Lanka -- who are focused, effective, and agile -- that are doing everything possible to give them hope for survival. Thank you.</p>
+        </div><br><br>
+        <div id="flexbox-container-donations">
+             <div class="flex-donation-1">
+                <h1 id="heading-donate">Donate and Save Blue whales</h1>
+                <img class="donate-wildlife" src="Images\Donate Whales.jpg">
+                <p class="p-donate"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget tincidunt dolor, nec aliquam dui. Phasellus sed molestie mi, nec dictum mauris. Nulla dignissim id arcu eget lobortis. Nulla molestie ornare leo eget rhoncus. Aliquam id egestas ex, vulputate eleifend sapien.</p>
+                <br><br>
+
+                <form id="form" action="/action_page.php">
+                    <label for="cars">Choose a donation:</label>
+                    <select name="donation" id="amount">
+                      <option value="volvo">5$</option>
+                      <option value="saab">10$</option>
+                      <option value="saab">25$</option>
+                      <option value="opel">50$</option>
+                      <option value="audi">100$</option>
+                    </select>
+                    <br><br>
+                    <label for="cars">Choose a method:</label>
+                    <select name="method" id="cash">
+                      <option value="volvo">VISA</option>
+                      <option value="saab">American Express</option>
+                      <option value="opel">PayPal</option>
+                      <option value="audi">Bitcoin</option>
+                    </select><br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+        
+             </div>
+             <div class="flex-donation-2">
+                <h1 id="heading-donate">Donate and Save Wild Elephants</h1>
+                <img class="donate-wildlife" src="Images\Donate Elephants.jpg">
+                <p class="p-donate">
+                    For far too long, the Asian ivory trade has coexisted with some of the world's most dangerous criminal enterprises, including as the drug, weapon, and human tracking industries.  We now have the statistics to show that this global disaster has claimed the lives of over 4,500 elephants in only three years, with some areas of Sri Lanka experiencing a 64 percent decline in elephant population.
+                </p>
+             </div>
+        </div>
+       
+        <!--
+            
+        <div id="flexbox-container-purchase-2">
+            <div class="flex-purchase-5">
+                <img class="ornament" src="Images\brass bowl.webp">
+            </div>
+            <div class="flex-purchase-6">
+                <img class="ornament" src="Images\brass bowl.webp">
+            </div>
+            <div class="flex-purchase-7">
+                <img class="ornament" src="Images\brass bowl.webp">
+            </div>
+            <div class="flex-purchase-8">
+                <img class="ornament" src="Images\brass bowl.webp">
+            </div>-->
+
+        </div>
+
+      
+             <section id="bottomNav-purchases">
+                <ul>
+                    <li><a class="active" href="Index.html">Home</a></li>
+                    <li><a href="2.Wildlife.html">Wildlife</a></li>
+                    <li><a href="3.Beaches.html">Beaches</a></li>
+                    <li><a href="4.Activities.html">Activities</a></li>
+                    <li><a href="5.Heritage Locations 1.html">Heritage Locations 1</a></li>
+                    <li><a href="6.Heritage Locations 2.html">Heritage Locations 2</a></li>
+                    <li><a href="7.Purchase and Donate.html">Purchase and donate</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </section>
+        </div>
+    </body>
+    <footer>
+        <a href="8.Sources.html">Sources</a>
+        <!--
+            References
+            1. https://www.worldwildlife.org/species/sri-lankan-elephant 
+            2. 
+            Images
+            1. https://ceylonstores.lk/product/brass-elephant-bowl/
+            2. https://ceylonstores.lk/product/
+            3. https://ceylonstores.lk/product/
+            4. https://ceylonstores.lk/product/
+            5. https://ceylonstores.lk/product/
+            6. https://ceylonstores.lk/product/
+            7. https://ceylonstores.lk/product/
+            8. https://ceylonstores.lk/product/
+            9. https://www.viator.com/tours/Gold-Coast/Private-whale-watching/d367-108930P3
+            10. https://monkeysandmountains.com/best-place-sri-lanka-see-elephants/
+        -->
+    </footer>
+</html>
